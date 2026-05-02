@@ -1,0 +1,45 @@
+{
+  "name": "community",
+  "roles": [
+    { "name": "Admin",     "color": "#e74c3c", "hoist": true,  "mentionable": false },
+    { "name": "Moderator", "color": "#e67e22", "hoist": true,  "mentionable": true  },
+    { "name": "Helper",    "color": "#f1c40f", "hoist": true,  "mentionable": true  },
+    { "name": "Member",    "color": "#2ecc71", "hoist": false, "mentionable": false },
+    { "name": "Muted",     "color": "#95a5a6", "hoist": false, "mentionable": false }
+  ],
+  "categories": [
+    {
+      "name": "📋 Information",
+      "channels": [
+        { "name": "rules",         "type": 0, "topic": "Server rules and guidelines" },
+        { "name": "announcements", "type": 0, "topic": "Official server announcements" },
+        { "name": "roles",         "type": 0, "topic": "Reaction roles channel" },
+        { "name": "welcome",       "type": 0, "topic": "Welcome and farewell messages" }
+      ]
+    },
+    {
+      "name": "💬 General",
+      "channels": [
+        { "name": "general",   "type": 0, "topic": "General discussion" },
+        { "name": "off-topic", "type": 0, "topic": "Off-topic chat" },
+        { "name": "media",     "type": 0, "topic": "Share images and videos" },
+        { "name": "bot-commands", "type": 0, "topic": "Bot commands here" }
+      ]
+    },
+    {
+      "name": "🎵 Music",
+      "channels": [
+        { "name": "music-commands", "type": 0, "topic": "Use music commands here" },
+        { "name": "Music Lounge",   "type": 2 }
+      ]
+    },
+    {
+      "name": "🛡️ Staff",
+      "channels": [
+        { "name": "mod-log",   "type": 0, "topic": "Moderation log" },
+        { "name": "audit-log", "type": 0, "topic": "Audit log" },
+        { "name": "staff-chat","type": 0, "topic": "Staff only" }
+      ]
+    }
+  ]
+}

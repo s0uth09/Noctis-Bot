@@ -1,0 +1,55 @@
+{
+  "name": "gaming",
+  "roles": [
+    { "name": "Admin",     "color": "#e74c3c", "hoist": true,  "mentionable": false },
+    { "name": "Moderator", "color": "#e67e22", "hoist": true,  "mentionable": true  },
+    { "name": "Veteran",   "color": "#9b59b6", "hoist": true,  "mentionable": false },
+    { "name": "Member",    "color": "#3498db", "hoist": false, "mentionable": false },
+    { "name": "Muted",     "color": "#95a5a6", "hoist": false, "mentionable": false }
+  ],
+  "categories": [
+    {
+      "name": "📋 Server Info",
+      "channels": [
+        { "name": "rules",         "type": 0, "topic": "Rules" },
+        { "name": "announcements", "type": 0, "topic": "News and updates" },
+        { "name": "roles",         "type": 0, "topic": "Pick your game roles" }
+      ]
+    },
+    {
+      "name": "💬 Community",
+      "channels": [
+        { "name": "general",      "type": 0, "topic": "General chat" },
+        { "name": "introductions","type": 0, "topic": "Introduce yourself" },
+        { "name": "off-topic",    "type": 0, "topic": "Anything goes" },
+        { "name": "clips-media",  "type": 0, "topic": "Share your best clips" },
+        { "name": "bot-commands", "type": 0, "topic": "Bot commands here" }
+      ]
+    },
+    {
+      "name": "🎮 Gaming",
+      "channels": [
+        { "name": "lfg",           "type": 0, "topic": "Looking for group" },
+        { "name": "game-chat",     "type": 0, "topic": "Gaming discussion" },
+        { "name": "General Voice", "type": 2 },
+        { "name": "Gaming 1",      "type": 2 },
+        { "name": "Gaming 2",      "type": 2 }
+      ]
+    },
+    {
+      "name": "🎵 Music",
+      "channels": [
+        { "name": "music-commands", "type": 0, "topic": "Music bot here" },
+        { "name": "Music Lounge",   "type": 2 }
+      ]
+    },
+    {
+      "name": "🛡️ Staff",
+      "channels": [
+        { "name": "mod-log",    "type": 0, "topic": "Mod log" },
+        { "name": "audit-log",  "type": 0, "topic": "Audit log" },
+        { "name": "staff-chat", "type": 0, "topic": "Staff only" }
+      ]
+    }
+  ]
+}

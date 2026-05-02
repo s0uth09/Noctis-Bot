@@ -1,0 +1,25 @@
+{
+  "name": "noctis-haven",
+  "version": "3.0.0",
+  "description": "Self-hosted Discord bot — music, moderation, leveling, Last.fm, tickets, giveaways and more",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy/register.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^9.4.0",
+    "dotenv": "^16.4.0",
+    "@discordjs/voice": "^0.17.0",
+    "@discordjs/opus": "^0.9.0",
+    "play-dl": "^1.9.7",
+    "canvas": "^2.11.2",
+    "genius-lyrics": "^4.4.4",
+    "sodium-native": "^4.0.4",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {}
+}
