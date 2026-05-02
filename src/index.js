@@ -31,3 +31,7 @@ const { buildApp } = require('./core/app');
 
   await app.client.login(process.env.TOKEN);
 })();
+
+"scripts": {
+  "start": "node index.js"
+}
